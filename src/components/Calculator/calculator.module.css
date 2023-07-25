@@ -1,0 +1,68 @@
+.container {
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 33rem;
+    height: 40rem;
+    background-color: #2e3138;
+    box-shadow: 0px 0px 0px 10px #2a2c33;
+    border: 5px solid #5b656f;
+    border-radius: 15px;
+    -webkit-box-shadow: 23px 19px 41px -3px rgba(77, 62, 44, 0.2);
+    -moz-box-shadow: 23px 19px 41px -3px rgba(77, 62, 44, 0.2);
+    box-shadow: 23px 19px 41px -3px rgba(77, 62, 44, 0.2);
+}
+
+.text {
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+    justify-items: auto;
+    margin-left: 1.5rem;
+    color: #cdd9dd;
+}
+
+.name {
+    text-transform: uppercase;
+    margin-block-end: 3px;
+
+}
+
+.type {
+    margin-block-start: 1px;
+}
+
+.box {
+    margin-top: 1.3rem;
+    width: 11rem;
+    height: 2.5rem;
+    /*margin-left: 1rem;*/
+    cursor: auto;
+    background: rgba(23, 4, 4, 0.68);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.9px);
+    -webkit-backdrop-filter: blur(1.9px);
+    outline: none;
+}
+
+.history {
+    display: grid;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    margin-right: 8rem;
+}
+
+.icon {
+    cursor: pointer;
+    color: #cdd9dd;
+}
+
+.icon svg {
+    width: 40px;
+    height: 40px;
+}

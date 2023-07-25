@@ -1,0 +1,16 @@
+
+.display {
+    display: grid;
+    justify-items: center;
+    margin-top: 1rem;
+}
+
+.buttons {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
+    margin-top: 3rem;
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
+}
